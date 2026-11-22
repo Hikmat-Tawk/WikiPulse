@@ -1,0 +1,12 @@
+run_id,k,method,start_epoch,end_epoch,duration_s,status,records,http_attempts,failed_attempts,backoff_wait_s,error_kinds,first_attempt_error,error
+fw2_deny_bs4_1732,1,bs4,1794670843.414,1794670856.578,13.16,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,2,bs4,1794670863.423,1794670880.827,17.4,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,3,bs4,1794670883.44,1794670928.038,44.6,failed,0,3,3,4.12,"other,read_timeout,refused","ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=30)","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/Special:RecentChanges?namespace=0&days=30&enhanc"
+fw2_deny_bs4_1732,4,bs4,1794670928.064,1794670946.953,18.89,failed,0,3,3,3.73,"other,refused","ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/Special:RecentChanges?namespace=0&days=30&enhanced","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/Special:RecentChanges?namespace=0&days=30&enhanc"
+fw2_deny_bs4_1732,5,bs4,1794670948.064,1794670963.477,15.41,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,6,bs4,1794670968.077,1794670978.665,10.59,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,7,bs4,1794670988.078,1794670997.274,9.2,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,8,bs4,1794671008.084,1794671020.938,12.85,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,9,bs4,1794671028.089,1794671040.065,11.98,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,10,bs4,1794671048.089,1794671060.078,11.99,ok,500,1,0,0.0,,,
+fw2_deny_bs4_1732,11,bs4,1794671068.092,1794671078.929,10.84,ok,500,1,0,0.0,,,

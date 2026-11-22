@@ -1,0 +1,16 @@
+[17:45:07] #1 ok       16.7s records=500 attempts=16 failed=0 wait=0s errors=-
+[17:45:37] #2 ok       16.4s records=500 attempts=16 failed=0 wait=0s errors=-
+  attempt 0 failed (TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.003
+  (Session info: chrome=157.0.8103.78)
+Stacktrace:
+#0 0x5da8e209dcaa <unknown>
+#1 0x5da8e19d1cc5 <unknown>
+#2 0x5da8e19c1b32 <unknow); backing off 1.7s
+[17:46:57] #3 ok       66.6s records=500 attempts=18 failed=1 wait=0s errors=other
+[17:47:21] #4 ok       24.3s records=500 attempts=18 failed=0 wait=0s errors=-
+[17:47:45] #5 ok       17.8s records=500 attempts=16 failed=0 wait=0s errors=-
+[17:48:13] #6 ok       16.1s records=500 attempts=16 failed=0 wait=0s errors=-
+[17:48:42] #7 ok       15.6s records=500 attempts=16 failed=0 wait=0s errors=-
+[17:49:11] #8 ok       13.9s records=500 attempts=16 failed=0 wait=0s errors=-
+[17:49:42] #9 ok       14.7s records=500 attempts=16 failed=0 wait=0s errors=-
+-> /mnt/c/Users/HIKMAT/wikipulse/reports/figures/resilience_fw2_deny_selenium_1732.png

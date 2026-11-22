@@ -1,0 +1,5 @@
+run_id,method,collections,ok,failed,mode,block_s,ok_before_block,collections_touching_block,failed_touching_block,error_kinds_during_block,mean_failed_duration_s,s_per_failed_attempt,recovery_s_after_restore,read_timeouts_outside_block
+fw2_deny_api_1732,api,12,10,2,deny,61.8,2,3,2,other,19.2,5.03,10.3,0
+fw2_reject_api_1732,api,12,9,3,reject,62.0,2,3,3,other,3.9,0.02,17.5,0
+fw2_deny_bs4_1732,bs4,11,9,2,deny,62.1,2,3,2,"other,read_timeout,refused",31.7,9.27,14.9,0
+fw2_deny_selenium_1732,selenium,9,9,0,deny,62.0,2,1,0,other,,,16.9,0

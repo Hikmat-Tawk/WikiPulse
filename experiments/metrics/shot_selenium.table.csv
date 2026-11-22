@@ -1,0 +1,2 @@
+Method,Bandwidth (KB),Time (s),#Requests,Avg latency (ms),Runs
+selenium,654.1 ± 0.0,22.61 ± 0.00,17.0 ± 0.0,1728 ± 0,1

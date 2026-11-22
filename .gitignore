@@ -1,0 +1,33 @@
+# Secrets / local config
+config/settings.yaml
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and captures (too big / regenerable). Small samples go in data/samples/.
+data/raw/
+data/normalized/
+data/labeled/
+*.sqlite
+*.db
+*.pcap
+*.pcapng
+experiments/captures/
+*.keys.log
+tls_keys.log
+probes/output/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Office lock files
+~$*

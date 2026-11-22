@@ -1,0 +1,19 @@
+# WikiPulse configuration (example).
+# Copy to config/settings.yaml and fill in your contact. settings.yaml is git-ignored.
+
+http:
+  # Wikimedia User-Agent policy: identify the tool and give a way to contact you.
+  # https://meta.wikimedia.org/wiki/User-Agent_policy
+  project: "WikiPulse/0.1"
+  description: "university network-programming lab project; read-only"
+  contact: "YOUR_CONTACT_HERE"   # e.g. a university email or repository URL
+  timeout_s: 30
+  max_retries: 5
+  backoff_base_s: 1.0            # exponential backoff: 1, 2, 4, 8, ... seconds (+ jitter)
+  min_interval_s: 1.0            # polite spacing between requests from one thread
+  maxlag: 5                      # MediaWiki API: ask the server to refuse us if DB replicas lag > 5 s
+
+endpoints:
+  recentchanges_html: "https://en.wikipedia.org/wiki/Special:RecentChanges"
+  api: "https://en.wikipedia.org/w/api.php"
+  eventstreams: "https://stream.wikimedia.org/v2/stream/recentchange"

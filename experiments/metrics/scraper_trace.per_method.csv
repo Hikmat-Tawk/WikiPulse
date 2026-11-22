@@ -1,0 +1,4 @@
+method,bandwidth_kb,pcap_kb_total,pcap_packets,tcp_connections,tls_handshakes,retransmissions,out_of_order,n_requests,requests_per_connection,pcap_overhead_pct
+api,36.8,48.0,70.2,1.0,1.0,1.4,1.6,1.0,1.0,30.4
+bs4,123.6,144.4,168.2,1.0,1.0,4.2,11.2,1.0,1.0,16.8
+selenium,656.2,10127.6,10536.0,13.6,10.8,150.6,478.6,16.8,1.24,1443.4

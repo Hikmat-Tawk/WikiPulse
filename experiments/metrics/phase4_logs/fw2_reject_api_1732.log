@@ -1,0 +1,13 @@
+[17:36:47] #1 ok        7.6s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:37:07] #2 ok        7.6s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:37:23] #3 failed    3.8s records=0 attempts=3 failed=3 wait=3.73s errors=other
+[17:37:43] #4 failed    3.6s records=0 attempts=3 failed=3 wait=3.52s errors=other
+[17:38:04] #5 failed    4.4s records=0 attempts=3 failed=3 wait=4.27s errors=other
+[17:38:29] #6 ok        9.9s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:38:49] #7 ok        9.4s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:39:09] #8 ok        9.5s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:39:31] #9 ok       11.5s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:39:48] #10 ok        9.2s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:40:09] #11 ok        9.7s records=500 attempts=1 failed=0 wait=0s errors=-
+[17:40:27] #12 ok        7.7s records=500 attempts=1 failed=0 wait=0s errors=-
+-> /mnt/c/Users/HIKMAT/wikipulse/reports/figures/resilience_fw2_reject_api_1732.png

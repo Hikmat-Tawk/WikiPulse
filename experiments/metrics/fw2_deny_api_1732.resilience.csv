@@ -1,0 +1,13 @@
+run_id,k,method,start_epoch,end_epoch,duration_s,status,records,http_attempts,failed_attempts,backoff_wait_s,error_kinds,first_attempt_error,error
+fw2_deny_api_1732,1,api,1794670351.81,1794670361.494,9.68,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,2,api,1794670371.811,1794670381.414,9.6,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,3,api,1794670391.812,1794670411.791,19.98,failed,0,3,3,4.88,other,"ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json&f","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json"
+fw2_deny_api_1732,4,api,1794670411.812,1794670430.234,18.42,failed,0,3,3,3.33,other,"ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json&f","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json"
+fw2_deny_api_1732,5,api,1794670431.813,1794670456.364,24.55,ok,500,3,2,3.95,other,"ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json&f",
+fw2_deny_api_1732,6,api,1794670456.373,1794670465.878,9.51,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,7,api,1794670476.374,1794670487.575,11.2,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,8,api,1794670496.374,1794670506.275,9.9,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,9,api,1794670516.375,1794670525.845,9.47,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,10,api,1794670536.375,1794670546.305,9.93,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,11,api,1794670556.376,1794670566.011,9.63,ok,500,1,0,0.0,,,
+fw2_deny_api_1732,12,api,1794670576.377,1794670586.827,10.45,ok,500,1,0,0.0,,,

@@ -1,0 +1,3 @@
+run_id,k,method,start_epoch,end_epoch,duration_s,status,records,http_attempts,failed_attempts,backoff_wait_s,first_attempt_error,error
+fw_deny_api,1,api,1794668549.296,1794668566.59,17.29,ok,500,2,1,1.7,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)",
+fw_deny_api,2,api,1794668566.618,1794668596.096,29.48,failed,0,3,3,3.77,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)","RuntimeError: giving up after 3 attempts: ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)"

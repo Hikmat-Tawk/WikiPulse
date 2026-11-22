@@ -1,0 +1,6 @@
+,app_kb,app_kb,target_kb,target_kb,target_packets,target_packets,target_retrans,target_retrans,target_out_of_order,target_out_of_order,target_tcp_connections,target_tcp_connections,other_kb,other_kb,other_quic_kb,other_quic_kb
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+method,,,,,,,,,,,,,,,,
+api,36.8,0.5,48.0,2.3,70.2,12.0,1.4,1.7,1.6,3.0,1.0,0.0,0.0,0.0,0.0,0.0
+bs4,123.6,0.4,144.4,1.9,168.2,17.1,4.2,2.3,11.2,13.9,1.0,0.0,0.0,0.0,0.0,0.0
+selenium,656.2,4.3,756.1,14.1,753.4,153.7,18.4,7.9,64.2,42.0,2.8,0.4,9371.6,4418.2,6869.4,2041.6

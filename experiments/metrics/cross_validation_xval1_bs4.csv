@@ -1,0 +1,16 @@
+method,field,shared,compared,null_in_ref,null_in_other,agree,agree_pct,agree_loose_pct
+selenium,page_id,491,491,0,0,491,100.0,
+selenium,parent_rev_id,491,483,8,8,483,100.0,
+selenium,page_title,491,491,0,0,491,100.0,
+selenium,namespace,491,491,0,0,491,100.0,
+selenium,editor,491,491,0,0,491,100.0,
+selenium,is_anonymous,491,491,0,0,491,100.0,
+selenium,timestamp_utc,491,491,0,0,491,100.0,
+selenium,byte_change,491,491,0,0,491,100.0,
+selenium,old_size,491,491,0,0,491,100.0,
+selenium,new_size,491,491,0,0,491,100.0,
+selenium,is_bot,491,491,0,0,491,100.0,
+selenium,is_minor,491,491,0,0,491,100.0,
+selenium,is_new_page,491,491,0,0,491,100.0,
+selenium,tags,491,491,0,0,491,100.0,
+selenium,edit_summary,491,433,58,58,433,100.0,100.0

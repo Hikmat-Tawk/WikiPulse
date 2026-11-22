@@ -1,0 +1,16 @@
+scenario,attempt,t_s,status,client_wait_after_s,outcome
+A: 429 + Retry-After 3 s (3×),0,0.0,429,3.0,success
+A: 429 + Retry-After 3 s (3×),1,3.002,429,3.0,success
+A: 429 + Retry-After 3 s (3×),2,6.004,429,3.0,success
+A: 429 + Retry-After 3 s (3×),3,9.006,200,0.0,success
+"B: 503, no Retry-After (4×) → exponential",0,0.0,503,1.788,success
+"B: 503, no Retry-After (4×) → exponential",1,1.79,503,2.599,success
+"B: 503, no Retry-After (4×) → exponential",2,4.391,503,4.826,success
+"B: 503, no Retry-After (4×) → exponential",3,9.218,503,8.562,success
+"B: 503, no Retry-After (4×) → exponential",4,17.782,200,0.0,success
+C: 429 forever → give up,0,0.0,429,1.0,gave up: giving up after 6 attempts: TransientError: HTTP 429
+C: 429 forever → give up,1,1.002,429,1.0,gave up: giving up after 6 attempts: TransientError: HTTP 429
+C: 429 forever → give up,2,2.004,429,1.0,gave up: giving up after 6 attempts: TransientError: HTTP 429
+C: 429 forever → give up,3,3.006,429,1.0,gave up: giving up after 6 attempts: TransientError: HTTP 429
+C: 429 forever → give up,4,4.008,429,1.0,gave up: giving up after 6 attempts: TransientError: HTTP 429
+C: 429 forever → give up,5,5.01,429,0.0,gave up: giving up after 6 attempts: TransientError: HTTP 429

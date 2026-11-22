@@ -1,0 +1,12 @@
+1794668078.746 UFW_ENABLED was inactive
+1794668078.912 BLOCK deny out 443 (tcp+udp) for 60s
+1794668141.034 RESTORE rule 'deny out 443' removed; ufw disabled again
+1794668742.317 UFW_ENABLED was inactive
+1794668742.493 BLOCK reject out 443 (tcp+udp) for 60s
+1794668804.505 RESTORE rule 'reject out 443' removed; ufw disabled again
+1794669244.546 UFW_ENABLED was inactive
+1794669244.722 BLOCK deny out 443 (tcp+udp) for 60sudos
+1794669246.452 RESTORE rule 'deny out 443' removed; ufw disabled again
+1794669410.770 UFW_ENABLED was inactive
+1794669410.942 BLOCK deny out 443 (tcp+udp) for 60s
+1794669472.810 RESTORE rule 'deny out 443' removed; ufw disabled again

@@ -1,0 +1,13 @@
+run_id,k,method,start_epoch,end_epoch,duration_s,status,records,http_attempts,failed_attempts,backoff_wait_s,error_kinds,first_attempt_error,error
+fw2_reject_api_1732,1,api,1794670599.77,1794670607.35,7.58,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,2,api,1794670619.771,1794670627.35,7.58,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,3,api,1794670639.772,1794670643.581,3.81,failed,0,3,3,3.73,other,"ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json&f","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json"
+fw2_reject_api_1732,4,api,1794670659.773,1794670663.333,3.56,failed,0,3,3,3.52,other,"ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json&f","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json"
+fw2_reject_api_1732,5,api,1794670679.774,1794670684.135,4.36,failed,0,3,3,4.27,other,"ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json&f","RuntimeError: giving up after 3 attempts: ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=recentchanges&format=json"
+fw2_reject_api_1732,6,api,1794670699.774,1794670709.691,9.92,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,7,api,1794670719.777,1794670729.217,9.44,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,8,api,1794670739.778,1794670749.305,9.53,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,9,api,1794670759.778,1794670771.245,11.47,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,10,api,1794670779.779,1794670788.985,9.21,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,11,api,1794670799.78,1794670809.491,9.71,ok,500,1,0,0.0,,,
+fw2_reject_api_1732,12,api,1794670819.78,1794670827.427,7.65,ok,500,1,0,0.0,,,

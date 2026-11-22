@@ -1,0 +1,9 @@
+run_id,k,method,start_epoch,end_epoch,duration_s,status,records,http_attempts,failed_attempts,backoff_wait_s,first_attempt_error,error
+fw_deny_bs4,1,bs4,1794669113.661,1794669143.561,29.9,failed,0,3,3,4.3,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)","RuntimeError: giving up after 3 attempts: ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)"
+fw_deny_bs4,2,bs4,1794669143.586,1794669171.991,28.41,failed,0,3,3,3.81,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)","RuntimeError: giving up after 3 attempts: ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)"
+fw_deny_bs4,3,bs4,1794669172.001,1794669200.654,28.65,failed,0,3,3,4.1,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)","RuntimeError: giving up after 3 attempts: ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)"
+fw_deny_bs4,4,bs4,1794669200.668,1794669210.233,9.56,ok,500,1,0,0.0,,
+fw_deny_bs4,5,bs4,1794669215.669,1794669235.398,19.73,ok,500,2,1,1.89,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)",
+fw_deny_bs4,6,bs4,1794669235.407,1794669245.039,9.63,ok,500,1,0,0.0,,
+fw_deny_bs4,7,bs4,1794669250.408,1794669279.834,29.43,ok,500,3,2,4.05,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)",
+fw_deny_bs4,8,bs4,1794669279.843,1794669309.058,29.21,failed,0,3,3,4.53,"ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)","RuntimeError: giving up after 3 attempts: ReadTimeout: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=8.0)"

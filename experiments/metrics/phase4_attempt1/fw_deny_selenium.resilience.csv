@@ -1,0 +1,8 @@
+run_id,k,method,start_epoch,end_epoch,duration_s,status,records,http_attempts,failed_attempts,backoff_wait_s,first_attempt_error,error
+fw_deny_selenium,1,selenium,1794669363.137,1794669384.373,21.24,ok,500,17,0,0,,
+fw_deny_selenium,2,selenium,1794669393.139,1794669408.779,15.64,ok,500,16,0,0,,
+fw_deny_selenium,3,selenium,1794669423.139,1794669488.406,65.27,ok,500,19,2,0,net::ERR_ABORTED,
+fw_deny_selenium,4,selenium,1794669488.416,1794669513.871,25.46,ok,500,18,0,0,,
+fw_deny_selenium,5,selenium,1794669518.416,1794669534.829,16.41,ok,500,16,0,0,,
+fw_deny_selenium,6,selenium,1794669548.418,1794669567.206,18.79,ok,500,16,0,0,,
+fw_deny_selenium,7,selenium,1794669578.419,1794669595.419,17.0,ok,500,16,0,0,,

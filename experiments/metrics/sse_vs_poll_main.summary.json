@@ -1,0 +1,54 @@
+{
+ "experiment_id": "sse_vs_poll_main",
+ "duration_s": 600.2,
+ "window_margins_s": [
+  60.0,
+  150.0
+ ],
+ "sse": {
+  "connections": 2,
+  "reconnects": 1,
+  "events_total": 21527,
+  "events_useful": 803,
+  "bytes_total": 31857836,
+  "bytes_useful_decoded": 1008864,
+  "useful_share_pct": 3.17,
+  "content_encoding": "identity",
+  "replayed_after_reconnect": 25,
+  "events_per_s": 35.9,
+  "distinct_wikis": 145,
+  "top_wikis": [
+   [
+    "commonswiki",
+    5689
+   ],
+   [
+    "wikidatawiki",
+    3475
+   ],
+   [
+    "enwiki",
+    2975
+   ],
+   [
+    "bewiki",
+    1692
+   ],
+   [
+    "zhwikisource",
+    1071
+   ],
+   [
+    "frwiki",
+    645
+   ]
+  ],
+  "errors": []
+ },
+ "resume_test": {
+  "outage_s": 20.0,
+  "edits_made_during_outage": 23,
+  "of_which_sse_received": 23,
+  "missed_by_sse": []
+ }
+}

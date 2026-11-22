@@ -1,0 +1,4 @@
+observer,edits_in_window,seen,coverage_pct,lag_median_s,lag_p90_s,lag_max_s,requests_or_connections,kb_received,kb_per_useful_edit
+sse,529,529,100.0,3.34,7.64,37.96,2,31111.2,38.744
+poll30,529,529,100.0,18.51,30.49,45.5,20,202.5,0.237
+poll120,529,529,100.0,64.58,115.96,131.8,5,122.3,0.131

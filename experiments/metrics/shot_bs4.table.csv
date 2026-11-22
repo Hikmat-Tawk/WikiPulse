@@ -1,0 +1,2 @@
+Method,Bandwidth (KB),Time (s),#Requests,Avg latency (ms),Runs
+bs4,125.9 ± 0.0,10.09 ± 0.00,1.0 ± 0.0,8545 ± 0,1
